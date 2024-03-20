@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "imgsrc": "../../assets/images/product-1.jpg",
+      "productName": "BELL PEPPER",
+      "productPrice": "80",
+      "noOfProducts": 1
+    },
+    {
+      "id": 2,
+      "imgsrc": "../../assets/images/product-2.jpg",
+      "productName": "BELL PEPPER2",
+      "productPrice": "803",
+      "noOfProducts": 1
+    },
+    {
+      "id": 3,
+      "imgsrc": "../../assets/images/product-3.jpg",
+      "productName": "BELL PEPPER3",
+      "productPrice": "80",
+      "noOfProducts": 1
+    },
+    {
+      "id": 4,
+      "imgsrc": "../../assets/images/product-4.jpg",
+      "productName": "BELL PEPPER4",
+      "productPrice": "803",
+      "noOfProducts": 1
+    }
+  ],
+  "profile": [],
+  "addToCart": [
+    {
+      "id": 4,
+      "imgsrc": "../../assets/images/product-4.jpg",
+      "productName": "BELL PEPPER4",
+      "productPrice": "803",
+      "noOfProducts": 4
+    }
+  ]
+}

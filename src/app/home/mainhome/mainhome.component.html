@@ -1,0 +1,358 @@
+<div class="frame container-fluid ">
+</div>
+<div class="d-flex justify-content-around my-5 container-fluid viewonit reveal"
+    style="padding-left: 120px; padding-right: 120px;">
+    <div class="card text-center border-0" style="width: 120px;">
+        <div class=" d-flex justify-content-center align-items-center hovercard1 hovercard"
+            style="padding: 10px; border-radius: 50%;margin-bottom: 10px;">
+            <div style="border: solid rgb(254, 254, 254) 1px; border-radius: 50%; padding: 5px;">
+                <i class="fa fa-truck text-white p-4" aria-hidden="true" style="font-size: 30px;"></i>
+            </div>
+        </div>
+
+        <div class="">
+            <h6 class="card-title">FREE SHIPPING</h6>
+            <p class="card-text" style="font-size: 12px; color: rgb(120, 119, 119);">ON ORDER OVER $100</p>
+
+        </div>
+    </div>
+    <div class="card text-center border-0" style="width: 120px;">
+        <div class=" d-flex justify-content-center align-items-center hovercard2 hovercard"
+            style="padding: 10px; border-radius: 50%;margin-bottom: 10px;  ">
+            <div style="border: solid rgb(254, 254, 254) 1px; border-radius: 50%; padding: 5px;">
+                <i class="fa fa-truck text-white p-4" aria-hidden="true" style="font-size: 30px;"></i>
+            </div>
+        </div>
+
+        <div class="">
+            <h6 class="card-title">ALWAYS FRESH</h6>
+            <p class="card-text" style="font-size: 12px; color: rgb(120, 119, 119);">PRODUCT WELL PACKAGE.</p>
+
+        </div>
+    </div>
+    <div class="card text-center border-0" style="width: 120px;">
+        <div class=" d-flex justify-content-center align-items-center hovercard3 hovercard"
+            style="padding: 10px; border-radius: 50%;margin-bottom: 10px;">
+            <div style="border: solid rgb(254, 254, 254) 1px; border-radius: 50%; padding: 5px;">
+                <i class="fa  fa-check-circle text-white p-4" aria-hidden="true" style="font-size: 30px;"></i>
+            </div>
+        </div>
+
+        <div class="">
+            <h6 class="card-title">SUPERIOR QUALITY</h6>
+            <p class="card-text" style="font-size: 12px; color: rgb(120, 119, 119);">QUALITY PRODUCTS</p>
+
+        </div>
+    </div>
+    <div class="card text-center border-0" style="width: 120px;">
+        <div class=" d-flex justify-content-center align-items-center hovercard4 hovercard"
+            style="padding: 10px; border-radius:50%;margin-bottom: 10px;">
+            <div style="border: solid rgb(254, 254, 254) 1px; border-radius: 50%; padding: 5px;">
+
+                <i class="fa fa-users text-white p-4" aria-hidden="true" style="font-size: 30px;"></i>
+            </div>
+        </div>
+
+        <div class="">
+            <h6 class="card-title">SUPPORT</h6>
+            <p class="card-text" style="font-size: 12px; color: rgb(120, 119, 119);">24/7 SUPPORT</p>
+
+        </div>
+    </div>
+
+</div>
+<div class="d-flex justify-content-around anime my-5 container-fluid" style="padding-left: 102px;
+padding-right: 102px;">
+    <div class="d-flex flex-column ">
+        <img src="../../assets/images/category-1.jpg" alt="fruits" style="width: 320px; height: 250px;"
+            class="mb-4 cards">
+        <img src="../../assets/images/category-2.jpg" alt="fruits" style="width: 320px; height: 250px;">
+    </div>
+    <div class="d-flex flex-column justify-content-between">
+        <div class="text-center">
+            <h2 style="color: #82ae46;">Vegetables</h2>
+            <p>Protect the health of every home</p>
+            <button st style="background-color: #82ae46; border-radius: 30px; color: white;font-size: 17px; line-height: 27px; font-family:
+                Poppins, Arial, sans-serif; padding: 6px 12px 6px 12px ; font-weight: 500;border: none;">Shop
+                now</button>
+        </div>
+        <img src="../../assets/images/category.jpg" alt="" style="width: 320px; height: 300px;">
+    </div>
+    <div class="d-flex flex-column">
+        <img src="../../assets/images/category-3.jpg" alt="fruits" style="width: 320px; height: 250px;" class="mb-4">
+        <img src="../../assets/images/category-4.jpg" alt="fruits" style="width: 320px; height: 250px;">
+    </div>
+</div>
+<div class="d-flex flex-column m-5 ">
+    <div class="d-flex flex-column text-center">
+        <p style="color: #82ae46; font-family: Lora, Georgia, serif; font-size: 18px;">Featured Products</p>
+        <h2 style="    font-size: 40px; font-weight: 600; color: #000000;
+        font-family: Poppins, Arial, sans-serif;">Our Products</h2>
+        <p style=" font-family: Poppins, Arial, sans-serif; font-size: 15px;
+        line-height: 1.8; font-weight: 400; color: gray;">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia</p>
+    </div>
+    <div class="d-flex flex-column my-4">
+        <div class="d-flex flex-row m-4 justify-content-between" style="padding-left: 70px; padding-right: 70px;">
+            <div class="card  card-div" *ngFor="let vegetable of data">
+                <!-- <span
+                    style="background-color: #82ae46; position: absolute; color: white; padding: 6px;    font-size: 14px;">30%</span> -->
+                <img class="card-img-top zoom" src={{vegetable.imgsrc}} alt="Card image cap">
+                <div class=" text-center">
+                    <a href="" style="text-decoration: none; color: #000000;">{{vegetable.productName}}</a>
+
+                    <div class="hover-items d-flex justify-content-center ">
+                        <p class="card-text hover-initial position-absolute" style=" color: #82ae46;"><span
+                                style="text-decoration: line-through;color: #b1acac; padding-right: 10px;">$120.00
+                            </span>{{vegetable.productPrice}}
+                        </p>
+                        <div class="d-flex flex-row hover-icon position-absolute justify-content-between ">
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center ">
+                                <i class="fa fa-bars" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center mx-1"
+                                (click)="addCart(vegetable)">
+                                <i class="fa fa-shopping-cart " style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button type="button"
+                                class="d-flex justify-content-center border-0 cardstyle align-items-center">
+                                <i class="fa fa-heart" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="d-flex flex-row m-4 justify-content-between" style="padding-left: 70px; padding-right: 70px;">
+            <div class="card  card-div">
+                <span
+                    style="background-color: #82ae46; position: absolute; color: white; padding: 6px;    font-size: 14px;">30%</span>
+                <img class="card-img-top zoom" src="../../assets/images/product-5.jpg" alt="Card image cap">
+                <div class=" text-center">
+                    <a href="" style="text-decoration: none; color: #000000;">TOMATOE</a>
+
+                    <div class="hover-items d-flex justify-content-center ">
+                        <p class="card-text hover-initial position-absolute" style=" color: #82ae46;"><span
+                                style="text-decoration: line-through;color: #b1acac; padding-right: 10px;">$120.00
+                            </span>$80.00
+                        </p>
+                        <div class="d-flex flex-row hover-icon position-absolute justify-content-between ">
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center ">
+                                <i class="fa fa-bars" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center mx-1">
+                                <i class="fa fa-shopping-cart " style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center">
+                                <i class="fa fa-heart" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card-div">
+                <img class="card-img-top zoom" src="../../assets/images/product-6.jpg" alt="Card image cap">
+                <div class="text-center">
+                    <a href="" style="text-decoration: none; color: #000000;">BROCOLLI</a>
+
+                    <div class="hover-items d-flex justify-content-center ">
+                        <p class="card-text hover-initial position-absolute" style=" color: #82ae46;">$80.00
+                        </p>
+                        <div class="d-flex flex-row hover-icon position-absolute justify-content-between ">
+                            <button class="d-flex border-0 justify-content-center cardstyle align-items-center ">
+                                <i class="fa fa-bars" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex border-0 justify-content-center cardstyle align-items-center mx-1">
+                                <i class="fa fa-shopping-cart " style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center cardstyle align-items-center border-0">
+                                <i class="fa fa-heart" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card-div">
+                <img class="card-img-top zoom" src="../../assets/images/product-7.jpg" alt="Card image cap">
+                <div class=" text-center">
+                    <a href="" style="text-decoration: none; color: #000000;">CARROTS</a>
+
+                    <div class="hover-items d-flex justify-content-center ">
+                        <p class="card-text hover-initial position-absolute" style=" color: #82ae46;">$80.00
+                        </p>
+                        <div class="d-flex flex-row hover-icon position-absolute justify-content-between ">
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center ">
+                                <i class="fa fa-bars" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center mx-1">
+                                <i class="fa fa-shopping-cart " style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center">
+                                <i class="fa fa-heart" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card card-div">
+                <img class="card-img-top zoom" src="../../assets/images/product-8.jpg" alt="Card image cap">
+                <div class=" text-center ">
+                    <a href="" style="text-decoration: none; color: #000000;">FRUIT JUICE</a>
+
+                    <div class="hover-items d-flex justify-content-center ">
+                        <p class="card-text hover-initial position-absolute" style=" color: #82ae46;">$80.00
+                        </p>
+                        <div class="d-flex flex-row hover-icon position-absolute justify-content-between ">
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center ">
+                                <i class="fa fa-bars" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center mx-1">
+                                <i class="fa fa-shopping-cart " style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                            <button class="d-flex justify-content-center border-0 cardstyle align-items-center">
+                                <i class="fa fa-heart" style="font-size: 10px;" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>
+
+<div class="timer-div container-fluid">
+    <div class="d-flex flex-column" style="width: 480px; margin-right: 100px;">
+        <p style="    font-size: 18px; display: block;margin-bottom: 10px;
+        font-family: Lora, Georgia, serif; font-style: italic;
+        color: #82ae46;">Best Price For You</p>
+        <h2 style="font-size: 40px;
+        font-weight: 600;color: #000000;
+        font-family: Poppins, Arial, sans-serif;">Deal of the day</h2>
+        <p style=" font-family: Poppins, Arial, sans-serif; font-size: 15px;
+        line-height: 1.8; font-weight: 400; color: gray;">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia</p>
+        <h5 style="color: #82ae46;    font-size: 30px;
+        font-family: Lora, Georgia, serif;
+        font-style: italic;">Spinach</h5>
+        <p style="color: #82ae46;"><span style="color: gray; padding-right: 5px;">$10</span> <b>now $5 only</b></p>
+        <div class="clock">
+            <div style="margin-left: 0px;">
+                <span id="days">00</span>
+                <span class="text">days</span>
+            </div>
+            <div>
+                <span id="hour">00</span>
+                <span class="text">hour</span>
+            </div>
+            <div>
+                <span id="minutes">00</span>
+                <span class="text">minutes</span>
+            </div>
+            <div>
+                <span id="seconds">00</span>
+                <span class="text">seconds</span>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<div class="d-flex flex-column mt-5 justify-content-center align-items-center">
+    <div class="d-flex flex-column text-center" style="width: 540px;">
+        <p style="    font-size: 18px; font-family: Lora, Georgia, serif;
+        color: #82ae46;">Testimony</p>
+        <h2 class="mb-4" style="font-size: 40px; font-weight: 600; color: #000000;
+        font-family: Poppins, Arial, sans-serif;">Our satisfied customer says</h2>
+        <p style=" font-family: Poppins, Arial, sans-serif; font-size: 15px;
+        line-height: 1.8; font-weight: 400; color: gray;">Far far away, behind the word mountains, far from the
+            countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mt-5">
+            <div class="carousel-item active d-flex justify-content-around" data-bs-interval="10000">
+                <div class="d-flex flex-column justify-content-between align-items-center" style="width:30%">
+                    <img src="../../assets/images/person_1.jpg" alt="Los Angeles" style=" width: 170px; height: 170px;
+                    border-radius: 50%;">
+                    <div class="text text-center">
+                        <p class="mb-3 mt-4 pl-4 line">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="name">Garreth Smith</p>
+                        <span class="position">System Analyst</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-items-center" style="width:30%">
+                    <img src="../../assets/images/person_2.jpg" alt="Los Angeles" style=" width: 170px; height: 170px;
+                    border-radius: 50%;">
+                    <div class="text text-center">
+                        <p class="mb-3 mt-4 pl-4 line">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="name">Garreth Smith</p>
+                        <span class="position">System Analyst</span>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-between align-items-center" style="width:30%">
+                    <img src="../../assets/images/person_3.jpg" alt="Los Angeles" style=" width: 170px; height: 170px;
+                    border-radius: 50%;">
+                    <div class="text text-center">
+                        <p class="mb-3 mt-4 pl-4 line">Far far away, behind the word mountains, far from the countries
+                            Vokalia and Consonantia, there live the blind texts.</p>
+                        <p class="name">Garreth Smith</p>
+                        <span class="position">System Analyst</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<div class="d-flex flex-row justify-content-around container-fluid" style="padding: 90px;">
+    <img src="../../assets/images/partner-1.png" class="image-style" alt="">
+    <img src="../../assets/images/partner-2.png" class="image-style" alt="">
+    <img src="../../assets/images/partner-3.png" class="image-style" alt="">
+    <img src="../../assets/images/partner-4.png" class="image-style" alt="">
+    <img src="../../assets/images/partner-5.png" class="image-style" alt="">
+
+</div>
+<section class="ftco-section ftco-no-pt ftco-no-pb py-5 " style="background-color: #f7f6f2;">
+    <div class="container py-4">
+        <div class="row d-flex justify-content-center py-5">
+            <div class="col-md-6">
+                <h2 style="font-size: 22px;" class="mb-0">Subcribe to our Newsletter</h2>
+                <span>Get e-mail updates about our latest shops and special offers</span>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex" style="width: 540px; height: 52px;">
+                        <input type="text" class="form-control" placeholder="Enter email address"
+                            style="font-size: 14px; line-height: 27px; font-family: Poppins, Arial, sans-serif;">
+                        <input type="submit" value="Subscribe" class="submit px-3 border-0"
+                            style="background-color: #82ae46; color: white;font-size: 14px; line-height: 27px;  font-family: Poppins, Arial, sans-serif;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

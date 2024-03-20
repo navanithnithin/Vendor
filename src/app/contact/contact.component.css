@@ -1,0 +1,41 @@
+.shop-div {
+    background-image: url('../../assets/images/bg_1.jpg');
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input {
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+
+.form-group button {
+    background-color: #82ae46;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 3px 30px;
+    font-size: 19px;
+}
+
+.shop-div .shop-div-p1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+    color: #fff;
+    margin-top: 125px;
+    font-weight: 300;
+}
+
+.shop-div .shop-div-p2 {
+    font-weight: 800;
+    color: #fff;
+    font-size: 30px;
+    font-family: Poppins, Arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}

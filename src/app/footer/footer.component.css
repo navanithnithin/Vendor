@@ -1,0 +1,12 @@
+.list-unstyled a {
+    color: #000000;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li i {
+    padding-right: 25px;
+}

@@ -1,0 +1,14 @@
+ .navbar-nav .nav-item .nav-link {
+     font-size: 11px;
+     padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-weight: 400;
+     color: #000000;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     opacity: 1 !important;
+ }
+
+ .nav-contact span {}

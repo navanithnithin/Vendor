@@ -1,0 +1,62 @@
+.shop-div {
+    background-image: url('../../assets/images/bg_1.jpg');
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hovercard:hover {
+    background-color: #82ae46;
+}
+
+/* selected link */
+.hovercard1 {
+    background-color: #e4b2d6;
+}
+
+
+/* selected link */
+.hovercard2 {
+    background-color: #dcc698
+}
+
+/* selected link */
+.hovercard3 {
+    background-color: #a2d1e1
+}
+
+.hovercard4 {
+    background-color: #dcd691
+}
+
+.card-bgcol {
+    background-color: #f7f6f2;
+}
+
+.bg-img {
+    background-image: url('../../assets/images/bg_3.jpg');
+    background-position: left;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.product-video {
+    background-image: url('../../assets/images/about.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.product-video i {
+    font-size: 25px;
+    padding: 32px 38px;
+    color: white;
+    background-color: #82ae46;
+    border-radius: 50%;
+    background-position: center;
+}

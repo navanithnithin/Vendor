@@ -1,0 +1,110 @@
+.shop-div {
+    background-image: url('../../assets/images/bg_1.jpg');
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img1 {
+    background-image: url('../../assets/images/image_1.jpg');
+    background-size: cover;
+}
+
+.blog-img2 {
+    background-image: url('../../assets/images/image_2.jpg');
+    background-size: cover;
+}
+
+.blog-img3 {
+    background-image: url('../../assets/images/image_3.jpg');
+    background-size: cover;
+}
+
+.blog-img4 {
+    background-image: url('../../assets/images/image_4.jpg');
+    background-size: cover;
+}
+
+.blog-img5 {
+    background-image: url('../../assets/images/image_5.jpg');
+    background-size: cover;
+}
+
+.blog-img6 {
+    background-image: url('../../assets/images/image_6.jpg');
+    background-size: cover;
+}
+
+.blog-cont {
+    padding-left: 30px;
+}
+
+.blog-cont p {
+    color: #a49c9c;
+}
+
+.blog-cont button {
+    padding: 5px 15px;
+    background-color: #82ae46;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.blog-cont h6 {
+    font-size: 20px;
+    color: #000000;
+    line-height: 30px;
+}
+
+.search-suggestion .search-bar {
+    line-height: 45px;
+    margin-top: 95px;
+}
+
+
+.search-suggestion .search-bar input {
+    border: none;
+    outline-style: none;
+}
+
+.table {
+    margin-top: 70px;
+}
+
+.table .thead-primary tr th {
+    border: none;
+    font-size: 22px;
+    padding-bottom: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000000;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.table tbody tr .td-color {
+    color: rgb(194 192 192);
+}
+
+.recent-blog .recent-info .recent-img {
+    background-image: url('../../assets/images/image_1.jpg');
+    width: 90px;
+    height: 95px;
+    background-position: center;
+    background-size: cover;
+}
+
+.recent-blog h6 {
+    margin-bottom: 22px;
+}
+
+.tag .tag-btns button {
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 3px 9px;
+    margin: 0 10px 6px 0;
+}

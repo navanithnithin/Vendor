@@ -1,0 +1,55 @@
+<div class="container-fluid" style=" z-index: 1; position: fixed; margin: 0px; padding: 0px;">
+    <div class="p-1  container-fluid d-flex justify-content-around nav-contact" style="background-color: #82ae46;
+    ">
+        <span style="font-size: 11px;text-transform: uppercase;letter-spacing: 1px;
+    color: white;"><i class="fa fa-phone" aria-hidden="true"></i><span class="text"></span>+ 1235 2355 98</span>
+        <span style="font-size: 11px;text-transform: uppercase;letter-spacing: 1px;
+    color: white;"><i class="fa fa-envelope" aria-hidden="true"></i> YOUREMAIL@EMAIL.COM</span>
+        <span style="font-size: 11px;text-transform: uppercase;letter-spacing: 1px;
+    color: white;font-weight: lighter;">3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed container-fluid" style="    padding-left: 102px;
+padding-right: 102px;">
+        <a class="navbar-brand fs-6" style="font-size: 16px; color: #82ae46;" href="#"><b
+                class="fs-5">VEGETABLES</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto ps-5 ">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" routerLink='/home/mainhome'>Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" routerLink='/home/shop'> Shop</a></li>
+                        <li><a class="dropdown-item" routerLink='/home/wishlist'> Wishlist</a></li>
+                        <li><a class="dropdown-item" routerLink='/home/singleproduct'> Single Product</a></li>
+                        <li><a class="dropdown-item" routerLink='/home/cart'> Cart</a></li>
+                        <li><a class="dropdown-item" routerLink='/home/checkout'> Checkout</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" routerLink='/about' href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark ms-3" routerLink='/blog' href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark ms-3" routerLink='/contact' href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark ms-3" href="#" routerLink='/home/cart'>
+                        <i class="bi bi-cart3"></i> <i (click)="totalCartProduct();" class="fa fa-shopping-cart"
+                            aria-hidden="true"></i>[{{totalNoOfProducts}}]
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
